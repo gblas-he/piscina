@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 09:38:58 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/20 18:40:01 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:25:04 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <string.h>
 
+// Compara hasta n caracteres de dos cadenas; devuelve 0 si son iguales, >0 o <0 según el orden.
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
 	unsigned int	i;

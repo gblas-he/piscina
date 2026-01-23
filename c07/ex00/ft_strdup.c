@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/27 14:18:45 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/27 18:49:29 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:31:35 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
 
+// Reserva memoria y devuelve una copia de la cadena dada.
 char	*ft_strdup(char *src)
 {
 	char	*buff_src;

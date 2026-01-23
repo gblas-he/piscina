@@ -6,13 +6,14 @@
 /*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/19 18:40:03 by gblas-he          #+#    #+#             */
-/*   Updated: 2026/01/19 14:56:38 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:24:04 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <string.h>
 
+// Copia hasta n-1 caracteres de la fuente a destino y añade el null-terminador.
 unsigned int    ft_strlcpy(char *dest, char *src, unsigned int size)
 {
         unsigned int     i;

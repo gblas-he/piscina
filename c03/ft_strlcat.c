@@ -6,13 +6,14 @@
 /*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 15:24:43 by gblas-he          #+#    #+#             */
-/*   Updated: 2026/01/18 20:30:31 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:24:45 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <bsd/string.h>
 
+// Concatena hasta n caracteres de la fuente al final de destino, garantizando espacio.
 size_t	ft_strlcat(char *dest, char *src, unsigned int size)
 {
 	/*unsigned int	i;

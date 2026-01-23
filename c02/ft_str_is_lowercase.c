@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/16 13:22:44 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/17 09:20:17 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:22:44 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Devuelve 1 si la cadena solo contiene letras minúsculas, 0 si no.
 int	ft_str_is_lowercase(char *str)
 {
 	int	i;

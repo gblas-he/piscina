@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/12 14:13:16 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/17 21:05:01 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:24:18 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Copia hasta n caracteres de la fuente a destino.
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int	i;

@@ -6,13 +6,13 @@
 /*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 21:44:36 by gblas-he          #+#    #+#             */
-/*   Updated: 2026/01/23 16:40:47 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:22:50 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-
+// Imprime todas las combinaciones posibles de tres dígitos diferentes.
 void	ft_print_comb(void)
 {
 	int	a;

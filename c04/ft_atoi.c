@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/20 20:05:53 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/23 13:25:43 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:28:21 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@
 	write(1, &n, 1);
 }*/
 
+// Convierte una cadena de caracteres en un número entero.
 int	ft_atoi(char *str)
 {
 	int	i;
@@ -53,7 +54,7 @@ int	ft_atoi(char *str)
 		num = num * 10 + (str[i] - '0');
 		i++;
 	}
-	return (number * sign);
+	return (num * sign);
 }
 
 /*int	main(int argc, char **argv)

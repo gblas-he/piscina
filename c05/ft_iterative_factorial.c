@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/23 11:13:40 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/25 18:26:29 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:29:06 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,7 @@ int	ft_atoi(char *str)
 	return (num * sign);
 }*/
 
+// Calcula el factorial de un número de manera iterativa.
 int	ft_iterative_factorial(int n)
 {
 	int	i;

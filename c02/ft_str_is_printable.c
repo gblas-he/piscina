@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/16 13:22:44 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/17 17:08:55 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:23:30 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Devuelve 1 si todos los caracteres de la cadena son imprimibles, 0 si no.
 int	ft_str_is_printable(char *str)
 {
 	int	i;

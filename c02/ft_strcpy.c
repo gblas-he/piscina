@@ -6,12 +6,13 @@
 /*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/12 14:13:16 by gblas-he          #+#    #+#             */
-/*   Updated: 2026/01/19 14:52:04 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:23:57 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Copia la cadena fuente en la cadena destino.
 char	*ft_strcpy(char *dest, char *src)
 {
 	char	*d;

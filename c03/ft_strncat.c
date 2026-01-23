@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 19:56:41 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/18 11:37:56 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:24:52 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Concatena hasta n caracteres de la fuente al final de destino.
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
 	unsigned int	i;

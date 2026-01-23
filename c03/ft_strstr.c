@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 12:30:45 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/19 15:07:18 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:25:12 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 #include <stddef.h>
 #include <string.h>
 
+// Busca la primera aparición de la subcadena needle dentro de haystack y devuelve su posición.
 char	*ft_strstr(char *str, char *to_find)
 {
 	int	j;

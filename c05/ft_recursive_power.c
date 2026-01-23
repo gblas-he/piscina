@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 19:12:12 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/25 18:55:08 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:29:26 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,7 @@ int   ft_atoi(char *a)
         return (num * sign);
 }*/
 
+// Calcula el valor de base^exponente de manera recursiva.
 int	ft_recursive_power(int nb, int power)
 {
 	if (power < 0)

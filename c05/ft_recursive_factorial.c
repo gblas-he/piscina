@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 14:17:12 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/25 18:24:50 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:29:19 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,7 @@ int	ft_atoi(char *a)
 	return (num * sign);
 }*/
 
+// Calcula el factorial de un número de manera recursiva.
 int	ft_recursive_factorial(int nb)
 {
 	if (nb < 0)

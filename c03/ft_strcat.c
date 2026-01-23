@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 19:56:41 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/17 20:50:40 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:24:32 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Concatena (une) la cadena fuente al final de la cadena destino.
 char	*ft_strcat(char *dest, char *src)
 {
 	int	i;

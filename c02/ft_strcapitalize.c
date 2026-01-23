@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 18:40:11 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/19 17:22:09 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:23:47 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Convierte la primera letra de cada palabra en mayúscula y las demás en minúscula.
 char	*ft_strcapitalize(char *str)
 {
 	int	i;

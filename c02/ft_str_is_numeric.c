@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/16 11:04:36 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/17 12:31:27 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:23:21 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-//#include <stdio.h>
+#include <stdio.h>
 
+// Devuelve 1 si la cadena solo contiene números (0-9), 0 si no.
 int	ft_str_is_numeric(char *str)
 {
 	int	i;

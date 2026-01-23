@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/22 00:56:11 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/23 08:06:36 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:28:44 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@
 	write(1, &n, 1);
 }*/
 
+// Devuelve la longitud de una cadena (sin contar el '\0').
 int	ft_strlen(char *str)
 {
 	int	i;

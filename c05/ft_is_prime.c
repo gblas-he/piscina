@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_prime.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gblas-he <gblas-he@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: gblas-he <gblas-he@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/26 09:01:30 by gblas-he          #+#    #+#             */
-/*   Updated: 2025/11/26 10:16:57 by gblas-he         ###   ########.fr       */
+/*   Updated: 2026/01/23 18:28:59 by gblas-he         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
+// Devuelve 1 si el número es primo, 0 si no.
 int	ft_is_prime(int nb)
 {
 	int	i;
